@@ -1,0 +1,121 @@
+// css menu section start
+.wrapper {
+    // border: 1px solid black;
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+    height: 70px;
+    h1 {
+        position: relative;
+        bottom: 7rem;
+        right: 12rem;
+    }
+    .tbl-30 {
+        position: relative;
+        bottom: 11rem;
+        left: 9rem;
+    }
+    ul {
+        list-style-type: none;
+        li {
+            display: inline;
+            padding: 1%;
+            a {
+                text-decoration: none;
+                font-weight: bold;
+                color: #4cd137;
+            }
+        }
+    }
+    .clearfix {
+        float: none;
+        clear: both;
+    }
+    table {
+        width: 100%;
+        position: relative;
+        bottom: 13rem;
+        tr th {
+            border-bottom: 1px solid black;
+            padding: 1%;
+            text-align: left;
+        }
+        tr td {
+            padding: 1%;
+        }
+    }
+    .btn-primary {
+        background-color: #1e90ff;
+        padding: 1%;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        right: 11rem;
+        bottom: 9rem;
+        position: relative;
+    }
+    .btn-primary:hover {
+        background-color: #3742fa;
+    }
+    .btn-secondary {
+        background-color: #7bed9f;
+        padding: 1%;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .btn-secondary:hover {
+        background-color: #2ed573;
+    }
+    .btn-danger {
+        background-color: #ff6348;
+        padding: 1%;
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .btn-danger:hover {
+        background-color: #ff4757;
+    }
+}
+
+.menu {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    ul li a:hover {
+        color: #e1b12c;
+    }
+}
+
+// css menu section end
+.main-content {
+    background-color: #7f8fa6;
+    padding: 7%;
+    height: 45%;
+    .col-4 {
+        width: 15%;
+        background-color: #45aaf2;
+        margin: 2%;
+        padding: 1%;
+        text-align: center;
+        float: left;
+        border-radius: 5px;
+        border: black solid 0.2px;
+        h3 {
+            color: #f1f2f6;
+        }
+        .col-4:hover {
+            background-color: blueviolet;
+        }
+    }
+}
+
+// admin-login style 
+.login {
+    width: 20%;
+    border: 2px solid grey;
+    margin: 5% auto;
+    padding: 2%;
+}
+
+// css for main content

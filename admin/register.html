@@ -1,0 +1,53 @@
+<!-- Register form Start -->
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Resgister Form</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+</head>
+
+<body>
+
+    <div class="login-page">
+        <div class="box">
+
+
+
+            <div class="right">
+                <h3>Have an Account ?</h3>
+                <a href="login.html"><button type="login-btn" class="register-btn">Login</button></a>
+            </div>
+
+
+            <div class="form">
+                <form action="register.php" method="POST">
+                    <div class="register-form form-hidden">
+                        <h3>Register</h3>
+                        <div class="form-group">
+                            <input type="text" name='first' placeholder="First Name*" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="last" placeholder="Last Name*" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="email" placeholder="Email Address*" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" name="password" placeholder="Password*" class="form-control">
+                        </div>
+
+                        <button type="submit" name="submit" class="submit-btn">Register</button>
+                        <p><a href="login.html" class="login-btn">Login</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Register form End -->
+    <script src="js/login.js"></script>
+</body>
+
+</html>

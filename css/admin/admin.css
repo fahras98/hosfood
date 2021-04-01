@@ -1,0 +1,94 @@
+.wrapper {
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+  height: 70px; }
+  .wrapper h1 {
+    position: relative;
+    bottom: 7rem;
+    right: 12rem; }
+  .wrapper .tbl-30 {
+    position: relative;
+    bottom: 11rem;
+    left: 9rem; }
+  .wrapper ul {
+    list-style-type: none; }
+    .wrapper ul li {
+      display: inline;
+      padding: 1%; }
+      .wrapper ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #4cd137; }
+  .wrapper .clearfix {
+    float: none;
+    clear: both; }
+  .wrapper table {
+    width: 100%;
+    position: relative;
+    bottom: 13rem; }
+    .wrapper table tr th {
+      border-bottom: 1px solid black;
+      padding: 1%;
+      text-align: left; }
+    .wrapper table tr td {
+      padding: 1%; }
+  .wrapper .btn-primary {
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    right: 11rem;
+    bottom: 9rem;
+    position: relative; }
+  .wrapper .btn-primary:hover {
+    background-color: #3742fa; }
+  .wrapper .btn-secondary {
+    background-color: #7bed9f;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold; }
+  .wrapper .btn-secondary:hover {
+    background-color: #2ed573; }
+  .wrapper .btn-danger {
+    background-color: #ff6348;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold; }
+  .wrapper .btn-danger:hover {
+    background-color: #ff4757; }
+
+.menu {
+  text-align: center;
+  border-bottom: 1px solid gray; }
+  .menu ul li a:hover {
+    color: #e1b12c; }
+
+.main-content {
+  background-color: #7f8fa6;
+  padding: 7%;
+  height: 45%; }
+  .main-content .col-4 {
+    width: 15%;
+    background-color: #45aaf2;
+    margin: 2%;
+    padding: 1%;
+    text-align: center;
+    float: left;
+    border-radius: 5px;
+    border: black solid 0.2px; }
+    .main-content .col-4 h3 {
+      color: #f1f2f6; }
+    .main-content .col-4 .col-4:hover {
+      background-color: blueviolet; }
+
+.login {
+  width: 20%;
+  border: 2px solid grey;
+  margin: 5% auto;
+  padding: 2%; }
+
+/*# sourceMappingURL=admin.css.map */
